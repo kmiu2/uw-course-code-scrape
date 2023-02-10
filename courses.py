@@ -26,6 +26,7 @@ def scrape_page(url, isMATH=False, startingYs=[]):
         course_code = divTableCell[0].text
         course_name = divTableCell[2].text
         course_desc = divTableCell[3].text
+        course_prereq = divTableCell[-1].text
 
         # Only keep MATH 117 and 119
         if isMATH:
@@ -90,6 +91,7 @@ def scrape_page(url, isMATH=False, startingYs=[]):
                 "course_code": course_code,
                 "course_name": course_name,
                 "course_desc": course_desc,
+                "course_prereq": course_prereq.strip(),
                 "term": term,
                 "x": x,
                 "y": y,
