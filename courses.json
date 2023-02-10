@@ -590,5 +590,21 @@
     "term": "4B",
     "x": 1400,
     "y": 1200
+  },
+  {
+    "course_code": "MATH 117",
+    "course_name": "Calculus 1 for Engineering",
+    "course_desc": "Functions of engineering importance; review of polynomial, exponential, and logarithmic functions; trigonometric functions and identities. Inverse functions (logarithmic and trigonometric). Limits and continuity. Derivatives, rules of differentiation; derivatives of elementary functions. Applications of the derivative, max-min problems, Mean Value Theorem. Antiderivatives, the Riemann definite integral, Fundamental Theorems. Methods of integration, approximation, applications, improper integrals. [Offered: F] ",
+    "term": "1A",
+    "x": 0,
+    "y": 600
+  },
+  {
+    "course_code": "MATH 119",
+    "course_name": "Calculus 2 for Engineering",
+    "course_desc": "Elementary approximation methods: interpolation; Taylor polynomials and remainder; Newton's method, Landau order symbol, applications. Infinite series: Taylor series and Taylor's Remainder Theorem, geometric series, convergence test, power series, applications. Functions of several variables: partial derivatives, linear approximation and differential, gradient and directional derivative, optimization and Lagrange multipliers. Vector-valued functions: parametric representation of curves, tangent and normal vectors, line integrals and applications. [Offered: W,S] ",
+    "term": "1B",
+    "x": 200,
+    "y": 700
   }
 ]
