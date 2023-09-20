@@ -121,7 +121,7 @@ combined_data += scrape_page(
 combined_data += scrape_page(
     "https://ucalendar.uwaterloo.ca/" + year + "/COURSE/course-MATH.html",
     isMATH=True,
-    startingYs=[600, 700, 0, 0, 0, 0, 0, 0],
+    startingYs=[500, 600, 0, 0, 0, 0, 0, 0],
 )
 
 # Save to JSON file
