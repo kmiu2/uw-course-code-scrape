@@ -2,9 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-data = []
 
-url = "https://ucalendar.uwaterloo.ca/2223/COURSE/course-NE.html"
+# Change this to the year you want to scrape
+year = "2324"
+data = []
+url = "https://ucalendar.uwaterloo.ca/" + year + "/COURSE/course-NE.html"
 
 # Create object page
 page = requests.get(url)
@@ -19,11 +21,16 @@ divTable = soup.find_all("div", class_="divTable")
 for table in divTable:
     divTableCell = table.find_all("div", class_="divTableCell")
 
-    # Store course code and prerequisites
+    # Store course code
     course_code = divTableCell[0].text
     temp = course_code.split(" ")
     course_code = temp[0] + " " + temp[1]
-    course_prereqs = divTableCell[-1].text
+
+    # Search for the prereq and store it
+    for cell in divTableCell[1:]:
+        if "Prereq" in cell.text:
+            course_prereqs = cell.text
+            break
 
     # Remove brackets
     course_prereqs = course_prereqs.replace("(", "")

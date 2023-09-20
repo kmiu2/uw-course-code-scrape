@@ -3,6 +3,10 @@ from bs4 import BeautifulSoup
 import json
 
 
+# Change this to the year you want to scrape
+year = "2324"
+
+
 def scrape_page(url, isMATH=False, startingYs=[]):
     data = []
 
@@ -104,10 +108,10 @@ def scrape_page(url, isMATH=False, startingYs=[]):
 # Scrape the NE page and MATH page
 combined_data = []
 combined_data += scrape_page(
-    "https://ucalendar.uwaterloo.ca/2223/COURSE/course-NE.html"
+    "https://ucalendar.uwaterloo.ca/" + year + "/COURSE/course-NE.html"
 )
 combined_data += scrape_page(
-    "https://ucalendar.uwaterloo.ca/2223/COURSE/course-MATH.html",
+    "https://ucalendar.uwaterloo.ca/" + year + "/COURSE/course-MATH.html",
     isMATH=True,
     startingYs=[600, 700, 0, 0, 0, 0, 0, 0],
 )
