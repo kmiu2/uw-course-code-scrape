@@ -48,7 +48,7 @@
     "course_code": "NE 112",
     "course_name": "Linear Algebra for Nanotechnology Engineers",
     "course_desc": "Matrices, operations on matrices. Determinants. Adjoints and inverses. Solution of linear equations: elimination and iterative methods. Eigenvalues and eigenvectors with engineering applications. Complex numbers. [Offered: F] ",
-    "course_prereq": "Antireq: MATH 114, 115, 106, 136, 146, SYDE 114",
+    "course_prereq": "Prereq: 1A Nanotechnology Engineering. Antireq: MATH 114, 115, 106, 136, 146, SYDE 114",
     "term": "1A",
     "x": 0,
     "y": 300
@@ -57,7 +57,7 @@
     "course_code": "NE 113",
     "course_name": "Introduction to Computational Methods",
     "course_desc": "Spreadsheets for problem solving, plotting, fitting data. Problem solution plotting, and creating complex programs in an engineering prototypical programming environment. Elementary numerical methods: Taylor-series summations, roots of equations, roots of polynomials, direct and indirect solution methods for systems of linear, and nonlinear algebraic equations, integration. Applications in nanotechnology engineering. [Offered: W] ",
-    "course_prereq": "Antireq: CIVE 121, CS 115, 135, 145, ECE 150, MTE 121, SYDE 121",
+    "course_prereq": "Prereq: Level at least 1B Nanotechnology Engineering. Antireq: CIVE 121, CS 115, 135, 145, ECE 150, MTE 121, SYDE 121",
     "term": "1B",
     "x": 200,
     "y": 200
@@ -66,7 +66,7 @@
     "course_code": "NE 121",
     "course_name": "Chemical Principles",
     "course_desc": "Chemical reactions. Mass and charge balance. Introduction to the first, second, and third laws of thermodynamics. Chemical equilibrium. Applications of chemical equilibrium principles to proton-transfer reactions. Electronic structure of atoms and molecules. Periodicity and chemical bonding. [Offered: F] ",
-    "course_prereq": "Antireq: CHE 102, CHEM 120, 123",
+    "course_prereq": "Prereq: Level 1A Nanotechnology Engineering. Antireq: CHE 102, CHEM 120, 123",
     "term": "1A",
     "x": 0,
     "y": 400
@@ -75,7 +75,7 @@
     "course_code": "NE 125",
     "course_name": "Introduction to Materials Science and Engineering",
     "course_desc": "Fundamentals of crystalline structure, crystal defects, and noncrystallinity. Structure and properties of metals, ceramics, glasses, amorphous materials, polymers, and composites. Processing and concepts of engineering design of materials. [Offered: W] ",
-    "course_prereq": "Antireq: CHE 241, CIVE 265, ME 235",
+    "course_prereq": "Prereq: NE 121; Level at least 1B Nanotechnology Engineering. Antireq: CHE 241, CIVE 265, ME 235",
     "term": "1B",
     "x": 200,
     "y": 300
@@ -84,7 +84,7 @@
     "course_code": "NE 131",
     "course_name": "Physics for Nanotechnology Engineering",
     "course_desc": "A first course in physics that introduces basic topics in classical mechanics, wave mechanics, and physical optics. [Offered: W] ",
-    "course_prereq": "Antireq: BME 182, CIVE 104, ECE 105, PHYS 111, 115, 121, SYDE 182",
+    "course_prereq": "Prereq: MATH 117; Level at least 1B Nanotechnology Engineering. Antireq: BME 182, CIVE 104, ECE 105, PHYS 111, 115, 121, SYDE 182",
     "term": "1B",
     "x": 200,
     "y": 400
@@ -93,7 +93,7 @@
     "course_code": "NE 140",
     "course_name": "Linear Circuits",
     "course_desc": "Charge, current, and voltage. Resistance, Ohm's Law, Kirchhoff's voltage, and current laws. Nodal, mesh analysis, and source transformation. Superposition, Th\u00e9venin, and Norton equivalents. Capacitance, inductance, electrical energy dissipation, and first-order transient response circuits. Phasors, impedances, and alternating current (AC) steady state analysis. Ideal operational amplifier circuits. Frequency filter types, and active filter circuits' configuration. Introduction to the fundamentals of electronic waste recycling. [Offered: W] ",
-    "course_prereq": "Antireq: AE 123, (BME 294 and BME 294L), CIVE 123, ECE 140, ENVE 123, GENE 123, GEOE 123, ME 123, MTE 120, SYDE 292",
+    "course_prereq": "Prereq: Level at least 1B Nanotechnology Engineering. Antireq: AE 123, (BME 294 and BME 294L), CIVE 123, ECE 140, ENVE 123, GENE 123, GEOE 123, ME 123, MTE 120, SYDE 292",
     "term": "1B",
     "x": 200,
     "y": 500
@@ -120,7 +120,7 @@
     "course_code": "NE 215",
     "course_name": "Probability and Statistics",
     "course_desc": "Elementary probability theory. Random variables and distributions. Binomial, Poisson, and normal distributions. Elementary sampling. Statistical estimation. Tests of hypotheses and significance. Regression. Goodness-of-fit tests. [Offered: F] ",
-    "course_prereq": "Antireq: CHE 220, CIVE 224, ME 202, STAT 202, 206, 220, 230, SYDE 213",
+    "course_prereq": "Prereq: MATH 119, NE 112; Level at least 2A Nanotechnology Engineering. Antireq: CHE 220, CIVE 224, ME 202, STAT 202, 206, 220, 230, SYDE 213",
     "term": "2A",
     "x": 400,
     "y": 100
@@ -129,7 +129,7 @@
     "course_code": "NE 216",
     "course_name": "Advanced Calculus and Numerical Methods 1",
     "course_desc": "Ordinary differential equations with constant coefficients. Boundary value problems and applications to quantum mechanics. Laplace and Fourier transforms, Fourier series and applications. Numerical solution of ordinary differential equations. [Offered: F] ",
-    "course_prereq": "Antireq: AMATH 350, MATH 218, 228",
+    "course_prereq": "Prereq: Level at least 2A Nanotechnology Engineering Antireq: AMATH 350, MATH 218, 228",
     "term": "2A",
     "x": 400,
     "y": 200
@@ -156,7 +156,7 @@
     "course_code": "NE 222",
     "course_name": "Organic Chemistry for Nanotechnology Engineers",
     "course_desc": "Nomenclature, stereochemistry and reactions of important classes of organic compounds. Reaction mechanisms and energetics. Aromaticity and simple molecular orbital theory of conjugated systems. Applications to nanomaterials and/or devices. [Offered: F] ",
-    "course_prereq": "Antireq: (CHEM 262 and 262L), 264, (CHEM 266 and 266L)",
+    "course_prereq": "Prereq: Level at least 2A Nanotechnology Engineering. Antireq: (CHEM 262 and 262L), 264, (CHEM 266 and 266L)",
     "term": "2A",
     "x": 400,
     "y": 400
@@ -192,7 +192,7 @@
     "course_code": "NE 241",
     "course_name": "Electromagnetism",
     "course_desc": "Coulomb's law, electric field and electric flux, Gauss's law, electric potential, potential and field, magnetic field, Ampere's law, solenoid, electromagnetic induction, magnetic flux, Lenz' law, Faraday's law, capacitors and capacitance, inductors and inductance, Maxwell's equations, electromagnetic fields and waves, polarization. [Offered: F] ",
-    "course_prereq": "Antireq: ECE 106, MTE 120, SYDE 283",
+    "course_prereq": "Prereq: Level at least 2A Nanotechnology Engineering. Antireq: ECE 106, MTE 120, SYDE 283",
     "term": "2A",
     "x": 400,
     "y": 600
@@ -201,7 +201,7 @@
     "course_code": "NE 242",
     "course_name": "Semiconductor Physics and Devices",
     "course_desc": "Introduction to the physical principles and electrical behaviour of semiconductor materials and devices: electronic band structure, charge carriers, doping, carrier transport, pn-junctions, metal-oxide-semiconductor capacitors, transistors, and related optoelectronic devices (photodetectors, light emitting diodes, solar cells). [Offered: S] ",
-    "course_prereq": "Antireq: ECE 231",
+    "course_prereq": "Prereq: Level at least 2B Nanotechnology Engineering.  Antireq: ECE 231",
     "term": "2B",
     "x": 600,
     "y": 400
@@ -210,7 +210,7 @@
     "course_code": "NE 281",
     "course_name": "Biology for Nanotechnology Engineers",
     "course_desc": "Introduction to cell biology. Cell structure and components. Critical molecular processes of living organisms. Applications to nanobiotechnology. [Offered: S, first offered spring 2024] ",
-    "course_prereq": "Antireq: BIOL 130, CHE 161, BME 285",
+    "course_prereq": "Prereq: Level at least 2A Nanotechnology Engineering. Antireq: BIOL 130, CHE 161, BME 285",
     "term": "2B",
     "x": 600,
     "y": 500
@@ -264,7 +264,7 @@
     "course_code": "NE 332",
     "course_name": "Quantum Mechanics",
     "course_desc": "Historical background; the differential equation approach to quantum mechanics; treatments of solvable problems such as the particle-in-a-box, harmonic oscillator, rigid rotor, and the hydrogen atom; introduction to approximation methods for more complex systems; application to solid state problems, including band theory. [Offered: S] ",
-    "course_prereq": "Antireq: CHEM 356, ECE 405, PHYS 233, 234",
+    "course_prereq": "Prereq: Level at least 3A Nanotechnology Engineering. Antireq: CHEM 356, ECE 405, PHYS 233, 234",
     "term": "3A",
     "x": 800,
     "y": 300
@@ -273,7 +273,7 @@
     "course_code": "NE 333",
     "course_name": "Macromolecular Science",
     "course_desc": "Basic definitions, polymer types and nomenclature, molecular weight averages and distributions, structure and properties. Chemical kinetics, step-growth and free-radical chain-growth polymerizations, polymer recycling and sustainable design. [Offered: S] ",
-    "course_prereq": "Antireq: CHE 541, CHEM 370, MNS 322",
+    "course_prereq": "Prereq: NE 225; 3A Nanotechnology Engineering. Antireq: CHE 541, CHEM 370, MNS 322",
     "term": "3A",
     "x": 800,
     "y": 400
@@ -282,7 +282,7 @@
     "course_code": "NE 334",
     "course_name": "Statistical Thermodynamics",
     "course_desc": "Statistical mechanics vs. thermodynamics. Review of statistical concepts. Canonical and grand canonical ensembles. Entropy. General formulation of statistical thermodynamics. Fermi-Dirac, Bose-Einstein, and Boltzmann statistics. Quantum ideal gases. Specific heat of solids. Electrons in metals and semiconductors. Radiation: the photon gas. [Offered: F, first fall offering, Fall 2022] ",
-    "course_prereq": "Antireq: CHEM 400 (Topic: Statistical Mechanics), PHYS 359",
+    "course_prereq": "Prereq: Level at least 3B Nanotechnology Engineering. Antireq: CHEM 400 (Topic: Statistical Mechanics), PHYS 359",
     "term": "3B",
     "x": 1000,
     "y": 200
@@ -291,7 +291,7 @@
     "course_code": "NE 335",
     "course_name": "Soft Nanomaterials",
     "course_desc": "Introduction to the applications of macromolecules in nanotechnology. Block copolymers and self-assembled polymerization. Micelles and colloids. Dendrimers and molecular brushes. Supramolecular polymers, polymeric blends, and macromolecular nanocomposites. Polymer templates. Applications in the manufacturing of nanostructured materials and nanoscale devices. [Offered: F] ",
-    "course_prereq": "Antireq: CHE 541",
+    "course_prereq": "Prereq: NE 333; Level at least 3B Nanotechnology Engineering. Antireq: CHE 541",
     "term": "3B",
     "x": 1000,
     "y": 300
@@ -318,7 +318,7 @@
     "course_code": "NE 343",
     "course_name": "Microfabrication and Thin-film Technology",
     "course_desc": "Key processes for electronic device fabrication. Single crystal growth. Substrate preparation. Homoepitaxy, heteroepitaxy, and molecular-beam epitaxy. Ion implantation. Oxidation and diffusion. Physical and chemical vapor deposition. Sputtering and evaporation. Etching. Micromachining. Spin coating and printing. Photolithography. Effects of device scaling on chip performance. Process integration. Yield and reliability. [Offered: S] ",
-    "course_prereq": "Antireq: ECE 433",
+    "course_prereq": "Prereq: NE 121, 125, 242; 3A Nanotechnology Engineering. Antireq: ECE 433",
     "term": "3A",
     "x": 800,
     "y": 500
@@ -327,7 +327,7 @@
     "course_code": "NE 344",
     "course_name": "Electronic Circuits",
     "course_desc": "Metal-oxide-semiconductor field-effect transistor (MOSFET), circuit biasing and load-line analysis. Small-signal equivalent circuits and single stage amplifier configurations. Differential and multistage MOSFET amplifiers. The cascode configuration, current mirror and active loads. Feedback circuit configurations and stability. Oscillators, waveform shaping circuits and delay analysis. Introduction to digital circuits, the transistor switch, inverter circuits and complementary metal-oxide-semiconductor (CMOS) logic circuits. [Offered: F] ",
-    "course_prereq": "Antireq: ECE 240, 242, 340, SYDE 292",
+    "course_prereq": "Prereq: Level at least 3B Nanotechnology Engineering. Antireq: ECE 240, 242, 340, SYDE 292",
     "term": "3B",
     "x": 1000,
     "y": 600
@@ -345,7 +345,7 @@
     "course_code": "NE 350",
     "course_name": "Work-term Report 2",
     "course_desc": "An engineering report based upon a technical project, activity, or analysis carried out by the student, normally during work-term employment following the 2B academic term. Evaluation is based upon a level of written communication, technical proficiency, and engineering analysis appropriate to a third-year engineering student. [Offered: F] ",
-    "course_prereq": "Antireq: MSCI 392, WKRPT 300, 301",
+    "course_prereq": "Prereq: Level at least 3B Nanotechnology Engineering. Antireq: MSCI 392, WKRPT 300, 301",
     "term": "3B",
     "x": 1000,
     "y": 800
@@ -354,7 +354,7 @@
     "course_code": "NE 352",
     "course_name": "Surfaces and Interfaces",
     "course_desc": "Surfaces and interfaces in microelectronics and nanofabrication. Physicochemistry of interfaces. Capillary phenomena and molecular self-assembly. Structure and properties of clean and adsorbate covered surfaces (metals, semiconductors, oxides). Reactions at surfaces and catalysis. Surface electrochemistry, growth and diffusion, nanoscale structure formation/surface patterning, biological interfaces. [Offered: F] ",
-    "course_prereq": "Antireq: CHEM 400 (Topic: Surface Science and Nanotechnology)",
+    "course_prereq": "Prereq: Level at least 3B Nanotechnology Engineering. Antireq: CHEM 400 (Topic: Surface Science and Nanotechnology)",
     "term": "3B",
     "x": 1000,
     "y": 900
@@ -399,7 +399,7 @@
     "course_code": "NE 450",
     "course_name": "Work-term Report 3",
     "course_desc": "An engineering report based upon a technical project, activity, or analysis carried out by the student, normally during work-term employment following the 3B academic term. Evaluation is based upon a level of written communication, technical proficiency, and engineering analysis appropriate to a fourth-year engineering student. [Offered: W] ",
-    "course_prereq": "Antireq: MSCI 491, WKRPT 400, 401",
+    "course_prereq": "Prereq: Level at least 4B Nanotechnology Engineering. Antireq: MSCI 491, WKRPT 400, 401",
     "term": "4B",
     "x": 1400,
     "y": 100
@@ -543,7 +543,7 @@
     "course_code": "NE 476",
     "course_name": "Organic Electronics",
     "course_desc": "Electronic structure of conjugated molecules. Photophysics of organic molecules, singlet and triplet states, the transition moment, radiative and non-radiative transitions. Excited state kinetics. Excitonic processes in organic solids, Forster and Dexter transfer, quenching processes. Electronic conduction in organic solids, band and hopping transport, morphological disorder and traps. Introduction to the main types of organic electronic devices, such as light-emitting devices, solar cells, field-effect transistors, photodetectors and imaging devices. Aspects of device design and fabrication technology. [Offered: W] ",
-    "course_prereq": "Antireq: NE 479 (Topic: Organic Electronics); NE 499 (Topic: Materials 4 Printed Electronics)",
+    "course_prereq": "Prereq: Level at least 3B Electrical Engineering or Nanotechnology Engineering. Antireq: NE 479 (Topic: Organic Electronics); NE 499 (Topic: Materials 4 Printed Electronics)",
     "term": "4B",
     "x": 1400,
     "y": 900
@@ -579,7 +579,7 @@
     "course_code": "NE 488",
     "course_name": "Biomaterials and Biomedical Design",
     "course_desc": "An overview of nanomedicine and nanotechnology-based biomedical devices. Strategies and technologies for designing, testing, and manufacturing biomaterials and tissue-engineering products. Biological and clinical applications. Manufacturing challenges and regulatory procedures for commercialization. [Offered: W] ",
-    "course_prereq": "(Cross-listed with CHE 561)",
+    "course_prereq": "Prereq: NE 481; Level at least 3B Biomedical Engineering or Nanotechnology Engineering. Antireq: BME 489 (Topic: Biocompatibility and Biomaterial Engineering), CHE 561",
     "term": "4B",
     "x": 1400,
     "y": 1100
@@ -597,7 +597,7 @@
     "course_code": "NE 496",
     "course_name": "Nanomaterials for Electrochemical Energy Systems",
     "course_desc": "Nanomaterials in electrochemical energy systems, electrochemical reactions, and cell potentials. Nernst equation. Electrode kinetics and mass transport. Electrochemical reactor design. Fuel cells, electrocatalytic reactions, and hydrogen economy. Rechargeable batteries. Design aspects of energy systems. Applications in hybrid and electric vehicles. [Offered: W] ",
-    "course_prereq": "Antireq: CHE 331, NE 499 (Topic: Nanomaterials and Sustainable Energy)",
+    "course_prereq": "Prereq: Level at least 3B Nanotechnology Engineering. Antireq: CHE 331, NE 499 (Topic: Nanomaterials and Sustainable Energy)",
     "term": "4B",
     "x": 1400,
     "y": 1200
@@ -606,7 +606,7 @@
     "course_code": "MATH 117",
     "course_name": "Calculus 1 for Engineering",
     "course_desc": "Functions of engineering importance; review of polynomial, exponential, and logarithmic functions; trigonometric functions and identities. Inverse functions (logarithmic and trigonometric). Limits and continuity. Derivatives, rules of differentiation; derivatives of elementary functions. Applications of the derivative, max-min problems, Mean Value Theorem. Antiderivatives, the Riemann definite integral, Fundamental Theorems. Methods of integration, approximation, applications, improper integrals. [Offered: F] ",
-    "course_prereq": "Antireq: MATH 116, 124, 127, 137, 147",
+    "course_prereq": "Prereq: 4U Calculus and Vectors; Open only to students in Electrical and Computer Engineering or Software Engineering or Nanotechnology Engineering. Antireq: MATH 116, 124, 127, 137, 147",
     "term": "1A",
     "x": 0,
     "y": 600
@@ -615,7 +615,7 @@
     "course_code": "MATH 119",
     "course_name": "Calculus 2 for Engineering",
     "course_desc": "Elementary approximation methods: interpolation; Taylor polynomials and remainder; Newton's method, Landau order symbol, applications. Infinite series: Taylor series and Taylor's Remainder Theorem, geometric series, convergence test, power series, applications. Functions of several variables: partial derivatives, linear approximation and differential, gradient and directional derivative, optimization and Lagrange multipliers. Vector-valued functions: parametric representation of curves, tangent and normal vectors, line integrals and applications. [Offered: W,S] ",
-    "course_prereq": "Antireq: MATH 118, 128, 138, 148",
+    "course_prereq": "Prereq: One of MATH 116, 117, 127, 137, 147; Open only to students in Electrical and Computer Engineering or Software Engineering or Nanotechnology Engineering. Antireq: MATH 118, 128, 138, 148",
     "term": "1B",
     "x": 200,
     "y": 700

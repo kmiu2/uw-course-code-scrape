@@ -1,3 +1,4 @@
+from calendar import c
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -30,7 +31,14 @@ def scrape_page(url, isMATH=False, startingYs=[]):
         course_code = divTableCell[0].text
         course_name = divTableCell[2].text
         course_desc = divTableCell[3].text
-        course_prereq = divTableCell[-1].text
+
+        # Search for the prereq and store it
+        course_prereq = ""
+        for cell in divTableCell[4:]:
+            if "Prereq" in cell.text:
+                course_prereq += cell.text
+            if "Antireq" in cell.text:
+                course_prereq += cell.text
 
         # Only keep MATH 117 and 119
         if isMATH:
